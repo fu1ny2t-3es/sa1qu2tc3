@@ -76,7 +76,6 @@ runs:
     shell: bash
     run: |
       ./build.sh
-      ls -R
 
 
 
