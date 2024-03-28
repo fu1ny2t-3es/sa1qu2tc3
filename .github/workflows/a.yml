@@ -25,7 +25,7 @@ jobs:
 
 
     - run: |
-        wget -o file.img "https://www.googleapis.com/drive/v3/files/1ixJPXYtP46xxQyiU3sujrGtGfI_yYVSp?alt=media&key=AIzaSyCBXdkXfRSirq287v1jfBhNwyN2uRItVF4"
+        wget -O file.img "https://www.googleapis.com/drive/v3/files/1ixJPXYtP46xxQyiU3sujrGtGfI_yYVSp?alt=media&key=AIzaSyCBXdkXfRSirq287v1jfBhNwyN2uRItVF4"
         # ls -R
         sasquatch file.img
         ls -R
