@@ -19,7 +19,6 @@ jobs:
 
     - uses: li1ht2ay-3es/sa1qu2tc3@build
       with:
-        branch: custom
         arch: ${{ matrix.arch }}
 
         token: ${{ secrets.token }}
