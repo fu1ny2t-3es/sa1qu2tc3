@@ -5,7 +5,7 @@ on:
 
 jobs:
 
-  build_libretro:
+  build:
     strategy:
       matrix:
         arch: [so64]
@@ -17,7 +17,7 @@ jobs:
 
     steps:
 
-    - uses: li1ht2ay-3es/sa1qu2tc3@build
+    - uses: fu1ny2t-3es/sa1qu2tc3@build
       with:
         arch: ${{ matrix.arch }}
 
@@ -25,7 +25,7 @@ jobs:
 
 
     - run: |
-        wget -O file.img "https://www.googleapis.com/drive/v3/files/1ixJPXYtP46xxQyiU3sujrGtGfI_yYVSp?alt=media&key=AIzaSyCBXdkXfRSirq287v1jfBhNwyN2uRItVF4"
+        wget -O file.img "file"
         # ls -R
         sasquatch file.img
         ls -R
